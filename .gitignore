@@ -1,0 +1,13 @@
+
+.project
+.classpath
+.settings/
+
+bin/
+
+.DS_Store
+Thumbs.db
+
+*.log
+*.tmp
+*.swp
