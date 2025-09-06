@@ -27,5 +27,19 @@ public class MainAppl {
 
         System.out.print("SportLoto (7 из 49): ");
         NumbersUtil.sportLoto(1, 49, 7);
+        
+        
+        System.out.println("=========================HT 21============================");
+        
+
+        System.out.println("Biggest companies:");
+        EmployeeService.displayBiggestCompanies(employees);
+
+
+        String text = "abc, de ab a abc: ab abc lmn";
+        System.out.println("\nWord counts:");
+        NumbersUtil.displayWordCounts(text);
+
+        
     }
 }
